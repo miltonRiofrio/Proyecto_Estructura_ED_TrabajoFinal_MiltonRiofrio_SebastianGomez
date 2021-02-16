@@ -1,0 +1,31 @@
+{
+    "Controlador.ListaDoble.ListaDoble": {
+        "cabecera": {
+            "dato": {
+                "@class": "Modelo.Rol",
+                "id_rol": 3,
+                "rol": "Cliente"
+            },
+            "sig": {
+                "ant": {
+                    "@reference": "..\/.."
+                },
+                "dato": {
+                    "@class": "Modelo.Rol",
+                    "id_rol": 2,
+                    "rol": "Secretario"
+                },
+                "sig": {
+                    "ant": {
+                        "@reference": "..\/.."
+                    },
+                    "dato": {
+                        "@class": "Modelo.Rol",
+                        "id_rol": 1,
+                        "rol": "Administrador"
+                    }
+                }
+            }
+        }
+    }
+}

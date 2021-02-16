@@ -1,0 +1,25 @@
+{
+    "Controlador.ListaDoble.ListaDoble": {
+        "cabecera": {
+            "dato": {
+                "@class": "Modelo.Cuenta",
+                "id_cuenta": 2,
+                "usuario": 1150161097,
+                "contrasenia": 4321,
+                "id_persona": 2
+            },
+            "sig": {
+                "ant": {
+                    "@reference": "..\/.."
+                },
+                "dato": {
+                    "@class": "Modelo.Cuenta",
+                    "id_cuenta": 1,
+                    "usuario": 1150069324,
+                    "contrasenia": 1234,
+                    "id_persona": 1
+                }
+            }
+        }
+    }
+}
